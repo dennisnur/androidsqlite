@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQLite CRUD</string>
+    <string name="NRP">NRP</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="kembali">Kembali</string>
+    <string name="simpan">Simpan</string>
+    <string name="tambah">Tambah</string>
+    <string name="nodata">NoData</string>
+    <string name="ubah">Ubah</string>
+</resources>

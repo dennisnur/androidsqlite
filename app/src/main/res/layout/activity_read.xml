@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Read">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelNRP"
+        android:text="@string/NRP"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelNama"
+        android:text="@string/nama"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/labelNRP"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelAlamat"
+        android:text="@string/alamat"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/labelNama"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dataNRP"
+        android:text="@string/nodata"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:layout_alignRight="@id/labelNRP"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dataNama"
+        android:text="@string/nodata"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:layout_alignRight="@id/labelNama"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/dataNRP"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dataAlamat"
+        android:text="@string/nodata"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:layout_alignRight="@id/labelAlamat"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/dataNama"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBack"
+        android:text="@string/kembali"
+        android:layout_below="@id/dataAlamat"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</RelativeLayout>
